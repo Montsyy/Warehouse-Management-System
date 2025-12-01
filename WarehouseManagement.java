@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 class Item {
-    String itemID;    // unique ID (e.g., "BRG001")
+    String itemID;    // unique ID
     String name;
     String category;
     int quantity;
@@ -307,4 +307,5 @@ public class Main {
     static void searchByIDBinaryMenu() { searchByIDBinary(); }
 
 }
+
 
