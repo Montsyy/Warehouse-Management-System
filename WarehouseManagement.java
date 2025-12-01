@@ -1,17 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-/**
- * Sistem Manajemen Pergudangan (Console)
- * - Struktur data: Item[] (array)
- * - Sorting: Merge Sort (by ID asc, by qty desc)
- * - Searching: Binary Search (rekursif by ID), Linear Search by name
- * - Rekursi: merge sort & binary search
- *
- * Compile: javac Main.java
- * Run    : java Main
- */
-
 class Item {
     String itemID;    // unique ID (e.g., "BRG001")
     String name;
@@ -318,3 +307,4 @@ public class Main {
     static void searchByIDBinaryMenu() { searchByIDBinary(); }
 
 }
+
